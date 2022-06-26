@@ -1,7 +1,7 @@
 .cabecalho{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/imagens/anise-aroma-art-bazaar-277253.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../imagens/anise-aroma-art-bazaar-277253.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
