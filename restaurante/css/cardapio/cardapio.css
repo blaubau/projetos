@@ -1,0 +1,9 @@
+.cardapio{
+    width: 70vw;
+    margin: auto;
+    margin-top: 30vh;
+}
+
+.cardapio h2{
+    text-align: center;
+}

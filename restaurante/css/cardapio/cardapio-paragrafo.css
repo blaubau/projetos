@@ -1,0 +1,10 @@
+.carcapio__paragrafo{
+    text-align: justify;
+    margin-bottom: 2em;
+}
+
+.cardapio__preco{
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    color: var(--cor4);
+}

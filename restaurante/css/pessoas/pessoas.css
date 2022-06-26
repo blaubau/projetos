@@ -1,0 +1,63 @@
+.pessoas{
+    margin-top: 30vh;
+    width: 100%;
+    background-color: var(--cor1);
+    padding: 10vh 0 10vh;
+}
+
+.pessoas__titulo{
+    font-size: 4em;
+    color: var(--cor3);
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.pessoas__container{
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.pessoa__container{
+    width: 400px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.pessoas__imagem{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-image: url("../../imagens/woman-wearing-black-eyeglasses-1239291.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+}
+
+.pessoas__titulo-secundario{
+    margin: 1em 0 1em;
+    font-size: 1.5em;
+    font-family: 'Lobster', cursive;
+    color: var(--cor3);
+}
+
+.pessoas__descricao{
+    text-align: justify;
+    color: white;
+}
+
+@media screen and (max-width: 720px){
+    .pessoas__container{
+        display: block;
+        width: 100%;
+    }
+
+    .pessoa__container{
+        margin: auto;
+        width: 300px;
+        margin-top: 2em;
+    }
+}

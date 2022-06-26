@@ -1,0 +1,12 @@
+.cardapio__lista{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 720px){
+    .cardapio__lista{
+        display: block;
+    }
+}

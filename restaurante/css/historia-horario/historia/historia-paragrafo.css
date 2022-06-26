@@ -1,0 +1,8 @@
+.historia__paragrafo{
+    margin-bottom: 2em;
+}
+
+.historia__paragrafo strong{
+    font-weight: bold;
+    color: var(--cor4);
+}

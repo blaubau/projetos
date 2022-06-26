@@ -1,0 +1,13 @@
+.menu__item{
+    margin-left: 2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 970px){
+    .menu{
+        max-width: 100%;
+    }
+    .menu__item{
+        margin-left: 5px;
+    }
+}

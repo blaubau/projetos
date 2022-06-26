@@ -1,0 +1,11 @@
+.historia{
+    width: 40%;
+    text-align: justify;
+    
+}
+
+@media screen and (max-width: 720px){
+    .historia{
+        width: 100%;
+    }
+}

@@ -1,0 +1,11 @@
+.banner__titulo{
+    color: var(--cor3);
+    padding-bottom: .5em;
+    border-bottom: solid var(--cor3) 1px;
+}
+
+@media screen and (max-width: 400px){
+    .banner__titulo{
+        font-size: 3.5em;
+    }
+}

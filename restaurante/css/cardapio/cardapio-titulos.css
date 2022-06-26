@@ -1,0 +1,21 @@
+.cardapio__titulo{
+    font-size: 4em;
+    color: var(--cor4);
+    margin: 1em 0 1em;
+}
+
+.cardapio__titulo-secundario{
+    margin: 1em 0 1em;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    color: var(--cor4);
+    border-bottom: dotted var(--cor3) 2px;
+    padding-bottom: 0.5em;
+}
+
+.cardapio__titulo-terciario{
+    margin: 1em 0 1em;
+    font-size: 1.5em;
+    font-family: 'Lobster', cursive;
+    color: var(--cor1);
+}

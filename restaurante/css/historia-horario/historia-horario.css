@@ -1,0 +1,13 @@
+.historia-horario{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    margin-top: 30vh;
+}
+
+@media screen and (max-width: 720px) {
+    .historia-horario{
+        display: block;
+    }
+}

@@ -1,0 +1,15 @@
+.mapa{
+    margin-top: 20vh;
+}
+
+.mapa__titulo{
+    font-size: 4em;
+    color: var(--cor4);
+    margin: 1em 0 1em;
+    text-align: center;
+}
+
+.mapa__mapa{
+    width: 100%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}

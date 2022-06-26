@@ -1,0 +1,13 @@
+.menu__link{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.menu__link:hover{
+    background-color: var(--cor3);
+}

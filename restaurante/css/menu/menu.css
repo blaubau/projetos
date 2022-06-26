@@ -1,0 +1,47 @@
+.menu{
+    max-width: 70vw;
+    padding: 1.5em 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao-menu-mobile{
+    display: none;
+}
+
+.botao-menu-mobile button{
+    background-color: transparent;
+    border: none;
+}
+
+.botao-fecha-menu-mobile{
+    display: none;
+}
+
+.menu-mobile{
+    background-color: var(--cor1);
+    height: calc(100vh - 64px);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+
+.menu-mobile__item{
+    margin-bottom: 25%;
+}
+
+@media screen and (max-width: 650px){
+    .menu{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .menu__item{
+        display: none;
+    }
+    .botao-menu-mobile{
+        display: block;
+    }
+}

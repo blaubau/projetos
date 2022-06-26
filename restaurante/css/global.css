@@ -1,0 +1,14 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cor0);
+}
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 4em;
+}
+
+h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+}

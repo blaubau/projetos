@@ -1,0 +1,13 @@
+.cardapio__item{
+    width: 40%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding-bottom: 10px;
+    border-bottom: dotted var(--cor3) 3px;
+}
+
+@media screen and (max-width: 720px){
+    .cardapio__item{
+        width: 100%;
+    }
+}
