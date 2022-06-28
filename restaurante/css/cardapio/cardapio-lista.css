@@ -7,6 +7,6 @@
 
 @media screen and (max-width: 720px){
     .cardapio__lista{
-        display: block;
+        flex-direction: column;
     }
 }

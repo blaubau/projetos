@@ -8,10 +8,3 @@
     color: var(--cor3);
     font-weight: bold;
 }
-
-.horarios div{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}

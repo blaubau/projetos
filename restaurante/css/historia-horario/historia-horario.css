@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 720px) {
     .historia-horario{
-        display: block;
+        width: 80vw;
+        flex-direction: column;
     }
 }

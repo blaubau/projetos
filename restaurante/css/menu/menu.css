@@ -21,16 +21,21 @@
 
 .menu-mobile{
     background-color: var(--cor1);
-    height: calc(100vh - 64px);
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
+    height: 80vh;
     display: none;
 }
 
+.menu-mobile__lista{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .menu-mobile__item{
-    margin-bottom: 25%;
+    width: 100%;
+    text-align: center;
 }
 
 @media screen and (max-width: 650px){
